@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #001;
+    color: white;
+}
+:root{
+    font-family: sans-serif;
+}
+header{
+    padding: 2em;
+    background: #003;
+}
+nav{
+    margin: 20px;
+
+}
+nav a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+[type="text"],
+textarea{
+    display: inline-block;
+    padding: 10px 5px;
+    background: #003;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    transition: .5s;
+    border: none;
+    outline: none;
+    margin: 5px 0px;
+    resize: none;
+}
+[type="text"]:focus{
+    padding-bottom: 30px;
+}
+.btn-custom{
+    width: 100%;
+    padding: 15px 8px;
+    border: none;
+    outline: none;
+    background: #003;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
